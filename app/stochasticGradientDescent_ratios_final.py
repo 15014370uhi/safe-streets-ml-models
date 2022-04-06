@@ -70,8 +70,6 @@ sectors = [
 ]
 
 # function which reads all csv files in a folder and returns a dataframe representation
-
-
 def getCSVData(aSector):
 
     # declare variable to hold data frame
@@ -110,8 +108,6 @@ def getCSVData(aSector):
     return df
 
 # function which converts a crime category to a number value
-
-
 def getCrimeValue(aCrime):
     if(aCrime == 'Anti-social behaviour'):
         return 0  # anti-social behaviour
@@ -140,8 +136,6 @@ def getCrimeValue(aCrime):
         return 9  # shop lifting
 
 # function which returns the crime category for a given crime value
-
-
 def getCrimeCategory(aCrimeValue):
     if(aCrimeValue == 0):
         return 'Anti-social behaviour'  # anti-social behaviour
@@ -165,8 +159,6 @@ def getCrimeCategory(aCrimeValue):
         return 'Shoplifting'  # shop lifting
 
 # format data
-
-
 def formatData(df, clusterModel):
 
     # get year value from date element
@@ -198,8 +190,6 @@ def formatData(df, clusterModel):
     return df
 
 # get X and y data sets
-
-
 def convertToNP(aDataFrame):
 
     # convert dataframe to numpy array with floats (dummy)

@@ -1,0 +1,7 @@
+Python 3.7.11 64-bit used to build kmeans and ML models
+
+To build model
+
+- activate conda virtual python environment (e.g. conda activate myenv)
+- go to folder where someModelName.py is located.
+- python someModelName.py

@@ -68,7 +68,6 @@ sectors = [
 ]
 
 # function which reads all csv files in a folder and returns a dataframe representation
-
 def getCSVData(aSector):
 
     # declare variable to hold data frame
@@ -106,7 +105,6 @@ def getCSVData(aSector):
     return df
 
 # function which formats crime data
-
 def formatData(df, clusterModel):
 
     # get year value from date element
@@ -138,8 +136,6 @@ def formatData(df, clusterModel):
     return dfCounter
 
 # function which returns X and y data sets as numpy arrays
-
-
 def convertToNP(aDataFrame):
 
     # convert dataframe to numpy array with floats (dummy)
