@@ -1,0 +1,7 @@
+Python 3.7.11 64-bit - myenv - used to build kmeans and logistic models
+
+To build logistic regression model
+
+- activate myenv (conda activate myenv)
+- go to folder where logisticRegression.py is.
+- python logisticRegression.py
